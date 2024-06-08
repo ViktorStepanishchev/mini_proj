@@ -1,7 +1,6 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 
-import text
 from text import good, norm, bad, back_t
 
 mood_kb = ReplyKeyboardMarkup(

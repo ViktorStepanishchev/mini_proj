@@ -1,8 +1,7 @@
 from aiogram import Router, F
-from aiogram.types import CallbackQuery, Message, InlineKeyboardMarkup, FSInputFile
+from aiogram.types import CallbackQuery, Message, FSInputFile
 from aiogram.fsm.context import FSMContext
-from aiogram.methods.send_photo import SendPhoto
-from aiogram.methods import SendPhoto
+
 import random
 
 from kb import mood_kb, back_kb
